@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri, sans-serif;;
+}
+
+.background {
+  position: fixed;;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+#bg_video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.title {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  top: 7.8%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 10%;
+  margin-bottom: 10px;
+}
+
+.title p {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #aaa;
+}
+
+#logo {
+  height: 15%;
+  width: 15%;
+}
+
+#applestore {
+  height: 15%;
+  width: 15%;
+  padding-top: 12.5%;
+}
+
+#googleplay {
+  height: 15%;
+  width: 15%;
+  padding-top: 12.5%;
+}
+
+.navbar ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DE8243;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    width: 100%;
+}
+
+.navbar li {
+    float: right;
+    top: 0;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    background-color: #000000;
+}
+
+/*work on this later*/
+/*.navbar .active {
+    background-color: #4CAF50;
+}
+*/
